@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Db">
+      <UniqueIdentifier>{b08fa64f-0d04-4045-b74e-dc10bdad776a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image">
+      <UniqueIdentifier>{c368db52-2be5-48e6-bbbf-c83a0d356cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Db">
+      <UniqueIdentifier>{11d005ef-a5c3-41bf-94da-1e8a45addab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MFC">
+      <UniqueIdentifier>{47a858e3-54c7-49d8-acf9-2434f8867f87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Image">
+      <UniqueIdentifier>{16bd05d7-cb1d-4b6d-8803-757323acc615}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MFC_TESTDlg.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="MFC_TEST.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="database.h">
+      <Filter>Header Files\Db</Filter>
+    </ClInclude>
+    <ClInclude Include="database_config.h">
+      <Filter>Header Files\Db</Filter>
+    </ClInclude>
+    <ClInclude Include="db_user_info.h">
+      <Filter>Header Files\Db</Filter>
+    </ClInclude>
+    <ClInclude Include="im_qrcode.hpp">
+      <Filter>Header Files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="qrcodegen.hpp">
+      <Filter>Header Files\Image</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MFC_TEST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MFC_TESTDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="database.cpp">
+      <Filter>Source Files\Db</Filter>
+    </ClCompile>
+    <ClCompile Include="database_config.cpp">
+      <Filter>Source Files\Db</Filter>
+    </ClCompile>
+    <ClCompile Include="db_user_info.cpp">
+      <Filter>Source Files\Db</Filter>
+    </ClCompile>
+    <ClCompile Include="im_qrcode.cpp">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="qrcodegen.cpp">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCTEST.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCTEST.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFC_TEST.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
